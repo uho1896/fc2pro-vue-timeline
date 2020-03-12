@@ -1,4 +1,4 @@
-import Fc2ProVueTimeline from './src/components/Fc2ProVueTimeline.vye'
+import Fc2ProVueTimeline from './src/components/Fc2ProVueTimeline.vue'
 
 // Export components
 const Components = {

@@ -1,7 +1,16 @@
 # fc2pro-timeline
 Simple timeline component made with Vue.js, support vertical and horizontal layout.
 
-##Options
+## Install
+```javascript
+npm install fc2pro-vue-timeline --save
+
+or
+
+yarn add fc2pro-vue-timeline
+```
+
+## Options
 A set of custom options can be set to control the timeline.
 
 ```javascript
@@ -20,7 +29,23 @@ props: {
 }
 ```
 
-##Example
+## Usage
+
+### global import
+```javascript
+import Fc2ProVueTimeline from 'fc2pro-vue-timeline'
+Vue.use(Fc2ProVueTimeline);
+```
+
+### in component import
+```javascript
+import {Fc2ProVueTimeline} from 'fc2pro-vue-timeline'
+
+  components: {
+    Fc2ProVueTimeline,
+    ...
+  },
+```
 
 ```javascript
 <Fc2ProVueTimeline
